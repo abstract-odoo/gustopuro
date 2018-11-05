@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+	<template id="gustopuro_theme" name="gustopuro assets" inherit_id="website.assets_frontend">
+        <xpath expr="." position="inside">
+            <link rel="stylesheet" type="text/less" href='/gustopuro_css/static/src/less/custom.less' t-ignore="true"/>
+        </xpath>
+	</template>
+	
+</odoo>
